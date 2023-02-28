@@ -1,0 +1,11 @@
+{
+  "extends": ["github>sebtestorg2/renovate-config#develop"],
+  "baseBranches": ["release/v2.7"],
+  "enabledManagers": [
+    "droneci",
+    "dockerfile",
+    "github-actions",
+    "helm-values",
+    "regex"
+  ]
+}
