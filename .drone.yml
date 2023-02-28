@@ -1264,7 +1264,7 @@ platform:
 
 steps:
 - name: docker-image-digests
-  image: rancher/drone-docker-image-digests:v0.0.12
+  image: rancher/drone-docker-image-digests:v0.0.13
   environment:
     PLUGIN_GITHUB_REPOSITORY: "rancher/rancher"
     PLUGIN_GITHUB_TOKEN:
@@ -1306,7 +1306,7 @@ platform:
 
 steps:
 - name: docker-image-digests
-  image: rancher/drone-docker-image-digests:v0.0.12
+  image: rancher/drone-docker-image-digests:v0.0.13
   environment:
     PLUGIN_GITHUB_REPOSITORY: "rancher/rancher"
     PLUGIN_GITHUB_TOKEN:
@@ -1413,7 +1413,7 @@ clone:
 
 steps:
 - name: docker-image-digests
-  image: rancher/drone-docker-image-digests:v0.0.12
+  image: rancher/drone-docker-image-digests:v0.0.13
   environment:
     PLUGIN_GITHUB_REPOSITORY: "rancher/rancher"
     PLUGIN_GITHUB_TOKEN:
@@ -1463,7 +1463,7 @@ clone:
 
 steps:
 - name: docker-image-digests
-  image: rancher/drone-docker-image-digests:v0.0.12
+  image: rancher/drone-docker-image-digests:v0.0.13
   environment:
     PLUGIN_GITHUB_REPOSITORY: "rancher/rancher"
     PLUGIN_GITHUB_TOKEN:
