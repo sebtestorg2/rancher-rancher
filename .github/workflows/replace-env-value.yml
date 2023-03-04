@@ -54,7 +54,7 @@ jobs:
       - name: Create Pull Request
         if: ${{ env.changes_exist == 'true' }}
         id: cpr
-        uses: actions/github-script@v5.1.1
+        uses: actions/github-script@v6.4.0
         env:
           SOURCE_BRANCH: ${{ steps.branch.outputs.branch }}
         with:
